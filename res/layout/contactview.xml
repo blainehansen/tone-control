@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+		<TextView android:text=""
+			android:id="@+id/name"
+			android:textSize="@dimen/name_text_size"
+			android:textColor="@color/name_color"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:padding="@dimen/name_padding"/>
+			
+		<TextView android:text=""
+			android:id="@+id/ringtone"
+			android:textSize="@dimen/tone_text_size"
+			android:textColor="@color/default_tone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/name"
+			android:layout_centerVertical="true"
+			android:padding="@dimen/tone_padding"
+			android:singleLine="true"
+			android:ellipsize="end"/>
+		
+		<View android:id="@+id/divider"
+		    android:background="@android:drawable/divider_horizontal_dim_dark"
+		    android:layout_height="1dip"
+		    android:layout_width="fill_parent"
+		    android:layout_alignParentBottom="true"/>
+
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="name_color">#ABCDEF</color>
+    <color name="different_tone">#CEEE22EE</color>
+    <color name="default_tone">#AAAA</color>
+</resources>
